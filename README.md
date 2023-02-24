@@ -18,6 +18,20 @@ type Student struct {
 
 then generated method will be 
 
+### Installation
+```
+go get github.com/abba5/get-generator
+go install github.com/abba5/get-generator/...@master
+```
+
+### Run
+```
+get-generator -all file-name.go
+```
+
+
+### Output
+
 ```
 func (s *Student) GetName() string {
 	if s != nil {
