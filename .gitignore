@@ -13,3 +13,8 @@
 # Go workspace file
 go.work
 
+
+example/
+model/
+.idea/
+
