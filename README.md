@@ -1,5 +1,7 @@
 # get-generator
 
+This tool is inspired by the [easyjson](https://github.com/mailru/easyjson) generation logic
+
 ### WIP: 
 
 pointer cause panic in golang, 
