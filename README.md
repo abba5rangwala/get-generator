@@ -2,6 +2,8 @@
 
 This tool is inspired by the [easyjson](https://github.com/mailru/easyjson) generation logic
 
+> note: it's in WIP interface{}, enums are not supported
+
 ### WIP: 
 
 pointer cause panic in golang, 
