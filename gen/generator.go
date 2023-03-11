@@ -271,6 +271,8 @@ func getDefaultReturnType(t reflect.Type, typ string) string {
 		return "return nil"
 	case reflect.Struct:
 		return "return " + typ + "{}"
+	case reflect.Interface:
+		return "return nil"
 	}
 
 	return "return nil"
